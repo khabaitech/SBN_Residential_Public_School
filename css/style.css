@@ -1086,6 +1086,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 300px;
   margin-bottom: 20px;
   display: table;
+
 }
 .staff .staff-img:before {
   opacity: 0;
