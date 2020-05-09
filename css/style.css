@@ -526,6 +526,49 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 45px;
   color: #fff;
 }
+.about-principle img{
+  height: 300px;
+  width: 200px;
+  border-radius: 100px;
+  margin-left: 50px;
+}
+.image h4{
+  height: 50px;
+  margin-left: 70px;
+}
+.desk h1{
+  margin-left: 270px;
+  margin-top: -350px;
+  color: #E49D20;
+}
+.desk p{
+  margin-left: 270px;
+  padding-right: 30px;
+}
+.about-director img{
+  height: 300px;
+  width: 200px;
+  border-radius: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.ram h4{
+  
+  margin-left: 70px;
+  margin-top: 
+}
+.director h1{
+  margin-left: 270px;
+  margin-top: -330px;
+  color: #E49D20;
+}
+.director p{
+  margin-left: 270px;
+  padding-right: 30px;
+}
+.a{
+  height: 200px;
+}
 
 .course {
   display: -webkit-box;
@@ -546,6 +589,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .course .desc, .course .course-img {
     width: 100%;
   }
+}
+.desc h3 a{
+  color: red;
 }
 .course .course-img {
   background-size: cover;
