@@ -33,7 +33,7 @@ function init() {
     var addresses = ['Brooklyn'];
 
     for (var x = 0; x < addresses.length; x++) {
-        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
+        $.getJSON(<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14365.536654109368!2d85.4050776!3d25.8238836!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa404ae92b52e2a10!2sR.b.s%20Residential%20Public%20School!5e0!3m2!1sen!2sin!4v1588851667228!5m2!1sen!2sin" width="1200" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>+addresses[x]+'&sensor=false', null, function (data) {
             var p = data.results[0].geometry.location
             var latlng = new google.maps.LatLng(p.lat, p.lng);
             new google.maps.Marker({

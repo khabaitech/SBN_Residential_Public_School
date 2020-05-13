@@ -16,7 +16,7 @@ body {
   font-size: 15px;
   line-height: 1.7;
   color: #828282;
-  background: #fff;
+
 }
 
 #page {
@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 0;
   z-index: 1001;
+  background-color: #5EC2B9;
 }
 .fh5co-nav .top-menu {
   padding: 22px 0;
@@ -275,6 +276,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul li.active > a {
   font-weight: 400;
+}
+.school h1{
+  margin-left: 200px;
+  margin-top: 20px;
+  color: red;
 }
 
 #fh5co-hero {
@@ -520,6 +526,49 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 45px;
   color: #fff;
 }
+.about-principle img{
+  height: 300px;
+  width: 200px;
+  border-radius: 100px;
+  margin-left: 50px;
+}
+.image h4{
+  height: 50px;
+  margin-left: 70px;
+}
+.desk h1{
+  margin-left: 270px;
+  margin-top: -350px;
+  color: #E49D20;
+}
+.desk p{
+  margin-left: 270px;
+  padding-right: 30px;
+}
+.about-director img{
+  height: 300px;
+  width: 200px;
+  border-radius: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.ram h4{
+  
+  margin-left: 70px;
+  margin-top: 
+}
+.director h1{
+  margin-left: 270px;
+  margin-top: -330px;
+  color: #E49D20;
+}
+.director p{
+  margin-left: 270px;
+  padding-right: 30px;
+}
+.a{
+  height: 200px;
+}
 
 .course {
   display: -webkit-box;
@@ -540,6 +589,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .course .desc, .course .course-img {
     width: 100%;
   }
+}
+.desc h3 a{
+  color: red;
 }
 .course .course-img {
   background-size: cover;
@@ -620,6 +672,9 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-social-icons li a i {
   font-size: 20px;
 }
+.fh5co-contact-info h3{
+  color: blue;
+}
 
 .fh5co-contact-info ul {
   padding: 0;
@@ -630,7 +685,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 30px 0;
   list-style: none;
   position: relative;
-  color: rgba(0, 0, 0, 0.8);
+  color: black;
 }
 .fh5co-contact-info ul li:before {
   color: rgba(0, 0, 0, 0.8);
@@ -651,14 +706,17 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-contact-info ul li.address:before {
   font-size: 30px;
   content: "\e9dc";
+  color: #245690;
 }
 .fh5co-contact-info ul li.phone:before {
   font-size: 23px;
   content: "\ea3b";
+  color: #245690;
 }
 .fh5co-contact-info ul li.email:before {
   font-size: 23px;
   content: "\e91e";
+  color: #245690;
 }
 .fh5co-contact-info ul li.url:before {
   font-size: 23px;
@@ -1028,6 +1086,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 300px;
   margin-bottom: 20px;
   display: table;
+
 }
 .staff .staff-img:before {
   opacity: 0;
@@ -1054,6 +1113,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
+  color: red;
 }
 .staff .staff-img .fh5co-social li {
   display: inline-block;
@@ -1622,7 +1682,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/loader.gif) center no-repeat #fff;
+  background-color: #98D8A7;
 }
 
 .row-padded-mb {
